@@ -1,0 +1,84 @@
+{
+    "person": {
+        "role": "Expert Full Stack Developer"
+    },
+    "newsletter": {
+        "title": "Subscribe to {firstName}'s Newsletter",
+        "description": "I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering",
+        "button": "Sign up"
+    },
+    "home": {
+        "label": "Home",
+        "title": "{name}'s Portfolio",
+        "description": "Portfolio website showcasing my work as a {role}",
+        "headline": "Design engineer and builder",
+        "subline": "I'm Tung Mai, a Full Stack Developer. I create beautiful, functional websites and applications that solve real-world problems."
+    },
+    "about": {
+        "label": "About",
+        "title": "About me",
+        "description": "Meet {name}, {role} from {location}",
+        "intro": {
+            "title": "Introduction",
+            "description": "Tung is a Hanoi-based full stack developer with a passion for creating innovative web and mobile applications. With a strong foundation in both front-end and back-end technologies, Tung excels at building seamless user experiences and robust functionality. When not coding, Tung enjoys exploring the latest tech trends and contributing to open-source projects."
+        },
+        "work": {
+            "title": "Work Experience",
+            "experiences": {
+                "Freelancer": {
+                    "timeframe": "2014 - Present",
+                    "role": "Expert Full Stack Developer",
+                    "achievements": "Spearheaded the development of a scalable e-commerce platform that increased user engagement by 30%.;Implemented a microservices architecture that improved system reliability and reduced downtime by 25%."
+                },
+                "Kuky": {
+                    "timeframe": "2024 - 2025",
+                    "role": "Full Stack Developer - Kuky",
+                    "achievements": "Successfully launch the Kuky app on both iOS and Android platforms"
+                },
+                "Emddi": {
+                    "timeframe": "2022 - 2022",
+                    "role": "Mobile Team Lead - Emddi",
+                    "achievements": "Lead a mobile development team to optimize Emddi app"
+                }
+            }
+        },
+        "studies": {
+            "title": "Studies",
+            "institutions": {
+                "Hanoi University of Science and Technology": {
+                    "description": "Studied computer science."
+                }
+            }
+        },
+        "technical": {
+            "title": "Technical skills",
+            "skills": {
+                "React-Native": {
+                    "description": "Building cross-platform mobile apps with React-Native."
+                },
+                "Backend": {
+                    "description": "Experience with Node.js, Django, Nextjs for server-side development."
+                },
+                "Frontend": {
+                    "description": "Proficient in HTML, CSS, JavaScript, and modern frameworks like React.js and Next.js."
+                },
+                "IOT": {
+                    "description": "Knowledge of IoT protocols and platforms for connected devices."
+                }
+            }
+        }
+    },
+    "work": {
+        "label": "Work",
+        "title": "My projects",
+        "description": "Design and dev projects by {name}"
+    },
+    "gallery": {
+        "label": "Gallery",
+        "title": "My photo gallery",
+        "description": "A photo collection by {name}"
+    },
+    "projectCard": {
+        "label": "Read Case Study"
+    }
+}
