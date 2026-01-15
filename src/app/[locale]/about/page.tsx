@@ -143,8 +143,8 @@ export default function About(
                         id={about.intro.title}
                         fillWidth minHeight="160"
                         direction="column" justifyContent="center"
-                        marginBottom="32">
-                        {about.calendar.display && (
+                        marginBottom="32" gap='4'>
+                        {/* {about.calendar.display && (
                             <Flex
                                 className={styles.blockAlign}
                                 style={{
@@ -170,7 +170,7 @@ export default function About(
                                     variant="tertiary"
                                     icon="chevronRight"/>
                             </Flex>
-                        )}
+                        )} */}
                         <Heading
                             className={styles.textAlign}
                             variant="display-strong-xl">
@@ -181,6 +181,18 @@ export default function About(
                             variant="display-default-xs"
                             onBackground="neutral-weak">
                             {person.role}
+                        </Text>
+                        <Text
+                            className={styles.textAlign}
+                            variant="body-default-m"
+                            onBackground="neutral-weak">
+                            {`Address: No 5B, Alley 141/150/23 Giap Nhi, Hanoi, Vietnam`}
+                        </Text>
+                        <Text
+                            className={styles.textAlign}
+                            variant="body-default-m"
+                            onBackground="neutral-weak">
+                            {`Phone: +84356096728`}
                         </Text>
                         {social.length > 0 && (
                             <Flex
