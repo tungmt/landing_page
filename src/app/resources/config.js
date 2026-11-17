@@ -1,4 +1,4 @@
-const baseURL = 'demo.app'
+const baseURL = 'www.tungmt.com'
 
 // Enable localization
 const i18n = false;
@@ -15,6 +15,7 @@ const routes = {
     '/work':    true,
     '/blog':    true,
     '/gallery': true,
+    '/dont-jam/privacy-policy': true,
 }
 
 // Enable password protection on selected routes

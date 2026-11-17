@@ -56,6 +56,18 @@ Add a new .mdx file to src/app/[locale]/blog/posts or src/app/[locale]/work/proj
 - Magic Portfolio now supports localization with the next-intl library
 - See more info in resources/config.js
 
+## Don't Jam
+
+The Don't Jam project is listed on the home and work pages through
+`src/app/[locale]/work/projects/en/dont-jam.mdx`. Its detail page is
+`/work/dont-jam`, with images under `public/images/projects/dont-jam`.
+
+The public privacy policy is served at `/dont-jam/privacy-policy` (no locale
+prefix required). Edit `src/content/dont-jam/privacy-policy.md` to update it.
+This page is public, server-rendered, and included in the sitemap. Keep the
+policy consistent with the shipped app, especially if advertising is enabled
+in a future release.
+
 # **Authors**
 
 Connect with us on Threads or LinkedIn.

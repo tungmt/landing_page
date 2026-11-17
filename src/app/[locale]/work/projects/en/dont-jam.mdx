@@ -1,0 +1,42 @@
+---
+title: "Don't Jam: Parking Puzzle"
+publishedAt: "2026-11-17"
+summary: "A colorful 3D parking puzzle built with Godot. Unblock cars and buses, match passengers by color, and explore 100 levels across 10 market districts."
+images:
+  - "/images/projects/dont-jam/cover.jpg"
+  - "/images/projects/dont-jam/gameplay.jpg"
+---
+
+## A small parking lot with big decisions
+
+Don't Jam is my standalone 3D parking puzzle, built with Godot and GDScript for portrait mobile play. Clearing a path is only half the challenge: each vehicle must also be the right color for the passengers waiting outside the market.
+
+Tap a vehicle with a clear exit to send it to a pickup bay. Matching passengers board automatically, and a full vehicle drives away to make room for the next ride. With limited bays, choosing the wrong vehicle can bring the whole pickup area to a standstill.
+
+## Designed around thoughtful choices
+
+- **Four vehicle types:** cars, vans, shuttles, and buses carry 4, 8, 12, or 16 passengers.
+- **100 levels across 10 districts:** follow the journey from Meadow Village to Grand City, unlocking one market at a time.
+- **Growing challenges:** later levels introduce larger boards, more vehicles, and more colors.
+- **Earned-star powers:** use Undo, Extra Bay, or Shuffle to try a different approach.
+- **A playful presentation:** toy-like vehicles, animated passengers, a winding journey map, and original music and sound effects.
+
+## Building the game
+
+The project brings together deterministic puzzle generation, collision and exit-path checks, a color-matched passenger queue, vehicle boarding and departure animations, and local progress persistence.
+
+Each campaign level has a fixed layout and a verified-by-construction removal sequence. Automated tests cover the campaign solutions, pickup rules, star accounting, progression, and save recovery.
+
+The interface adapts to portrait phone and tablet layouts, with large touch controls and a shared sound preference. Progress and earned stars are saved locally, without requiring an account.
+
+## Screens from the game
+
+![Real gameplay showing color-matched pickups, different vehicle capacities, and later-level parking puzzles.](/images/projects/dont-jam/gameplay.jpg)
+
+## Privacy and support
+
+Advertising is currently disabled. The game does not present banner ads, rewarded ads, or in-app purchases.
+
+Read the [Don't Jam privacy policy](/dont-jam/privacy-policy) for details about local saves, bundled software, and support information.
+
+For help with the game, contact [me@tungmt.com](mailto:me@tungmt.com).

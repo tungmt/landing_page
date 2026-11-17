@@ -75,6 +75,10 @@ const RouteGuard: React.FC<RouteGuardProps> = ({ children }) => {
         }
     };
 
+    if (pathname === '/dont-jam/privacy-policy') {
+        return <>{children}</>;
+    }
+
     if (loading) {
         return (
         <Flex fillWidth paddingY="128" justifyContent="center">
