@@ -66,7 +66,30 @@ The public privacy policy is served at `/dont-jam/privacy-policy` (no locale
 prefix required). Edit `src/content/dont-jam/privacy-policy.md` to update it.
 This page is public, server-rendered, and included in the sitemap. Keep the
 policy consistent with the shipped app, especially if advertising is enabled
-in a future release.
+or its settings change.
+
+### AdMob app verification
+
+`public/app-ads.txt` is served as plain text at `/app-ads.txt`, without a
+locale prefix. It authorizes Google to sell app advertising directly for
+`pub-7716929580395932`, the publisher account in Don't Jam's configured AdMob
+IDs. The file uses Google's documented three-field seller-record format.
+Compare it with **AdMob > Apps > View all apps > app-ads.txt > How to set up
+app-ads.txt** for your account before deploying; retain any additional fields
+or seller records Google requires for your account.
+
+Deploy this website, then confirm `https://www.tungmt.com/app-ads.txt`
+returns HTTP 200 with the seller line, not an HTML page or an error. The
+existing locale middleware excludes dotted paths, so this static file does
+not need a translated page or middleware change. Make sure the app's public
+App Store developer/marketing website points to the appropriate domain,
+then use AdMob's **Verify app / Check for updates** controls and check the
+crawl/verification status.
+
+This file supports AdMob app verification; it does not initialize the
+game's SDK, approve an unpublished app, resolve consent/network failures,
+or guarantee ad inventory. Google demo ads should still be used to verify
+the native integration independently.
 
 ## MDX rendering
 
