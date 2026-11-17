@@ -68,6 +68,12 @@ This page is public, server-rendered, and included in the sitemap. Keep the
 policy consistent with the shipped app, especially if advertising is enabled
 in a future release.
 
+## MDX rendering
+
+Use `next-mdx-remote` 6 or later. The renderer keeps version 6's default
+JavaScript-expression blocking enabled; do not disable it to render content.
+Both npm and Yarn lockfiles include the version 6 dependency update.
+
 # **Authors**
 
 Connect with us on Threads or LinkedIn.
